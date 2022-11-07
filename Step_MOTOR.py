@@ -5,6 +5,7 @@ import time
 GPIO.BOARD 選項是指定在電路版上接脚的號碼
 GPIO.BCM 選項是指定GPIO後面的號碼
 '''
+
 gpio.setmode(gpio.BOARD)
 gpio.setwarnings(False)
  
