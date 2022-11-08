@@ -17,7 +17,7 @@ def on_closing():
 class App():
     def __init__(self,window):
         #init fireStore
-        cred = credentials.Certificate('firebase_key/raspbeery-a777e-firebase-adminsdk-4sfy5-aa9216d348.json')
+        cred = credentials.Certificate('')
         firebase_admin.initialize_app(cred)
         self.firestore = firestore.client()
 
